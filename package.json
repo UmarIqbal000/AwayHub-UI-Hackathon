@@ -1,0 +1,13 @@
+{
+  "name": "airbnb-style-booking",
+  "version": "1.0.0",
+  "description": "A modern Airbnb-style booking website",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "start": "live-server"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.1",
+    "live-server": "^1.2.2"
+  }
+} 
